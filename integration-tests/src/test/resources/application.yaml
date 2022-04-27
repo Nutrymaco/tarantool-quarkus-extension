@@ -1,0 +1,5 @@
+quarkus:
+  tarantool-client:
+    username: test_user
+    directWriteFactor: 0.8
+
