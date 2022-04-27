@@ -6,7 +6,7 @@
 
     <groupId>com.nutrymaco</groupId>
     <artifactId>tarantool-quarkus-extension-parent</artifactId>
-    <version>${project.version}</version>
+    <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Quarkus Tarantool extension - Parent</name>
@@ -17,7 +17,7 @@
     </modules>
 
     <properties>
-        <project.version>1.0.0-SNAPSHOT</project.version>
+        <revision>1.0.0-SNAPSHOT</revision>
 
         <compiler-plugin.version>3.8.1</compiler-plugin.version>
         <maven.compiler.release>17</maven.compiler.release>
