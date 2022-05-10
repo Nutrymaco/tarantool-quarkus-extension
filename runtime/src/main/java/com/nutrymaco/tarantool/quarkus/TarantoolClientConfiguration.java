@@ -17,16 +17,20 @@ import java.util.Map;
 public class TarantoolClientConfiguration {
 
     /**
+     * Tarantool instance address
+     * default - localhost:3301
      *
+     * @asciidoclet
      */
     @ConfigItem(name = "quarkus.tarantool-client.address", defaultValue = "localhost:3301")
     public String address;
 
     /**
+     * Config map for https://github.com/tarantool/tarantool-java/blob/master/src/main/java/org/tarantool/TarantoolClientConfig.java[TarantoolClientConfig.class]
      *
+     * @asciidoclet
      */
     @ConfigItem(name = ConfigItem.PARENT)
     public Map<String, String> tarantoolClientConfig;
-
 
 }

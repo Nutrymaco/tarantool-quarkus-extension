@@ -1,1 +1,0 @@
-# Tarantool Quarkus extension
