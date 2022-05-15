@@ -1,0 +1,29 @@
+[.configuration-legend]
+icon:lock[title=Fixed at build time] Configuration property fixed at build time - All other configuration properties are overridable at runtime
+[.configuration-reference.searchable, cols="80,.^10,.^10"]
+|===
+
+h|[[quarkus-tarantool-client_configuration]]link:#quarkus-tarantool-client_configuration[Configuration property]
+
+h|Type
+h|Default
+
+a| [[quarkus-tarantool-client_quarkus.tarantool-client.quarkus.tarantool-client.address]]`link:#quarkus-tarantool-client_quarkus.tarantool-client.quarkus.tarantool-client.address[quarkus.tarantool-client.quarkus.tarantool-client.address]`
+
+[.description]
+--
+Tarantool instance address
+default - localhost:3301
+--|string 
+|`localhost:3301`
+
+
+a| [[quarkus-tarantool-client_quarkus.tarantool-client-tarantool-client-config]]`link:#quarkus-tarantool-client_quarkus.tarantool-client-tarantool-client-config[quarkus.tarantool-client]`
+
+[.description]
+--
+Config map for https://github.com/tarantool/tarantool-java/blob/master/src/main/java/org/tarantool/TarantoolClientConfig.java[TarantoolClientConfig.class]
+--|`Map<String,String>` 
+|
+
+|===

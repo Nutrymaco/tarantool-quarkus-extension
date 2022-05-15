@@ -1,3 +1,6 @@
 # Tarantool Quarkus extension
 
-include::target/asciidoc/generated/config/quarkus-tarantool-client-com-nutrymaco-tarantool-quarkus-tarantool-client-configuration.adoc[opts=optional, leveloffset=+1]
+This extension's goal - provide interface for creating ``org.tarantool.TarantoolClient``.
+Extension create instance of tarantool client based on application configuration or bean of ``org.tarantool.TarantoolClientConfig``
+
+include::docs/quarkus-tarantool-client.adoc[opts=optional, leveloffset=+1]
